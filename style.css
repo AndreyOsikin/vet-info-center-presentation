@@ -2429,6 +2429,10 @@ dialog::backdrop {
     opacity 650ms var(--ease-premium),
     filter 650ms var(--ease-premium);
 }
+.sequence-complete .callout {
+  transition-delay: 0s;
+  transition-duration: 300ms;
+}
 .motion-pending .orb,
 .motion-pending .photo {
   opacity: 0.55;
